@@ -1,0 +1,37 @@
+html, body {
+    height: 100%; 
+    padding: 0; 
+    margin: 0;
+    background:#ffffff;
+    background: -webkit-linear-gradient(top, #ffffff 50%, #000000 50%);
+    background: -moz-linear-gradient(top, #ffffff 50%, #000000 50%);
+    background: -o-linear-gradient(top, #ffffff 50%, #000000 50%);
+    background: linear-gradient(to bottom, #ffffff 50%, #000000 50%);
+}
+
+div.logo {
+    position: relative;  
+    color: #fff;
+    font-size: 75pt;
+    font-family: 'Revalia';
+}
+
+div#contact {
+    position: absolute;
+    padding: 0 25px; 
+}
+
+div.logo span {
+    height: 50%;
+    position: absolute;
+    color: #000;
+    overflow: hidden;  
+}
+
+div.h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%; 
+}
+
