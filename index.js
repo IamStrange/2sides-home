@@ -62,6 +62,6 @@ app.get('/contact', function (req, res){
   res.render('contact', {error: req.query.error, name: req.query.name, email: req.query.email, message: req.query.message})
 }); 
 
-app.listen(3000, function () {
-  console.log('Example app listening on port 3000!')
-})
+app.listen(app.get('port'), function() {
+  console.log('Node app is running on port', app.get('port'));
+});
