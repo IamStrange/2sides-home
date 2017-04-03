@@ -285,3 +285,25 @@ input.error, textarea.error {
     50% { opacity: 1; }
     100% { top: 0; }
 }
+
+
+
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+  .logo {
+    font-size: 2em !important; 
+  }
+}
+
+/* Medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+  .logo {
+    font-size: 3.5em !important; 
+  }
+}
+
+/* Large and up */
+@media screen and (min-width: 64em) {}
+
+/* Large only */
+@media screen and (min-width: 64em) and (max-width: 74.9375em) {}
